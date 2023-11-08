@@ -1,0 +1,86 @@
+
+.tho{
+    width: 100%;
+ }
+ .tho1{
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+ }
+.below-picture{
+ display: grid;
+ grid-template-columns: 50px 1fr;
+}
+.grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+row-gap: 40px;
+}
+@media (max-width:700px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (min-width:1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.video-description{
+ font-size: 12px;
+ font-family: Arial;
+ margin-top:8px;
+ 
+}
+.thumbnail{
+ font-size:15px;
+ font-weight: bold;
+    color: white;
+}
+.author{
+ margin-top:10px;
+ color: grey;
+}
+.view-and-time{
+ margin-top:5px;
+ color: grey;
+}
+.avt1{
+    margin-right:10px;
+}
+.picture{
+    position:relative;
+}
+.time{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    right:8px;
+    bottom:8px;
+    position:absolute;
+    font-size:16px;
+    padding:5px 5px;
+    border-radius: 3px;;
+}
+.bell-ring{
+    position:relative;
+}
+.ring-button{
+    position:absolute;
+    top:40px;
+    right:10px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 50%;
+    padding-top:3px;
+    padding-bottom:3px;
+    font-family: Arial;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            message
+        </title>
+        <style>
+            .button-home, .button-notification,.button-messages{
+                background-color: rgb(73, 73, 238);
+                color: white;
+                height: 10x;
+                width: 30px;
+                border-radius: 20px;
+                border:none;
+                font-size: 10px;
+                font-weight: bold;
+            }
+            .flex-practice{
+                display: flex; flex-direction: row;
+        justify-content: space-between; 
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+            }
+            .second{
+                margin-right:10px;
+                
+            }
+            .first{
+                font-size: 12px;
+                margin-left:10px;
+                font-family: Arial;
+                width: 10px;
+            }
+            .notification,.message{
+                margin-top:8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-practice">
+            <div class="first" >
+                <div class="home">
+                    Home
+                </div>
+                <div class="notification">
+                    Notifications
+                </div>
+                <div class="message">
+                    Messages
+                </div>
+            </div>
+            <div class="second">
+                <div >
+                    <button class="button-home">14</button>
+                </div>
+                <div >
+                    <button class="button-notification">2</button>
+                </div>
+                <div >
+                    <button class="button-messages">7</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

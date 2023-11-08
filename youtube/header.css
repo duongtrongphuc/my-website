@@ -1,0 +1,162 @@
+body{
+    background-color: black;
+    padding-top:100px;
+    padding-left:80px;
+    padding-right:10px;
+}
+.header{
+    
+    height:80px;
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    margin-bottom:30px;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color: white;
+    z-index: 100;
+}
+.first{
+    
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    margin-right:80px;
+    
+}
+.hamburger-menu{
+    height:80px;
+    width:80px;
+    cursor:pointer;
+}
+.youtube-icon{
+    height:90px;
+    width:90px;
+    cursor:pointer;
+}
+.second{
+    flex:1;
+    margin-right: 100px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    height:80px;
+    width:80px;
+    cursor:pointer;
+    margin-top:30px;
+}
+.micro{
+    height:80px;
+    width:80px;
+    cursor:pointer;
+    margin-top:30px;
+}
+.search-bar{
+    flex:1;
+    height:40px;
+    width:20px;
+    font-family: Arial;
+    font-size: 18px;
+    padding-left:10px;
+    border-radius:10px;
+    border-color: grey;
+    border-style: solid;
+
+    
+}
+.third{
+    display: flex;
+    align-items: center;
+    width:50px;
+    flex-shrink: 0;
+}
+.thui{
+    height: 73px;
+     width: 73px;
+     border-radius: 50%;
+     margin-right:10px;
+     cursor:pointer;
+}
+.video-camera,.luoi,.bell{
+    height:80px;
+    width:80px;
+    cursor:pointer;
+    margin-top:30px;
+}
+.luoi{
+    cursor:pointer;
+    margin-top:30px;
+}
+.bell{
+    margin-right:10px;
+    cursor:pointer;
+    margin-top:30px;
+}
+.hamburger-menu:hover{
+    opacity:0.7;
+}
+.youtube-icon:hover{
+    opacity:0.7;
+}
+.search:hover{
+    opacity:0.7;
+}
+.micro:hover{
+    opacity:0.7;
+}
+.video-camera:hover{
+    opacity:0.7;
+}
+.luoi:hover{
+    opacity:0.7;
+}
+.bell:hover{
+    opacity:0.7;
+}
+.thui:hover{
+    opacity:0.7;
+}
+.header-icon .tooltip{
+    background-color: grey;
+    color:white;
+    margin-right:10px;
+    font-family: Arial;
+    font-size:15px;
+    padding-top:6px;
+    padding-left:10px;
+    border-radius:10px;
+    padding-right:5px;
+    opacity:0;
+    transition: opacity 0.15s;
+    padding-bottom:8px;
+    z-index: 110;
+    pointer-events: none;
+}
+.bell-ring .tooltip{
+    background-color: grey;
+    color:white;
+    margin-right:10px;
+    font-family: Arial;
+    font-size:15px;
+    padding-top:6px;
+    padding-left:8px;
+    padding-right:5px;
+    border-radius:10px;
+    opacity:0;
+    transition: opacity 0.15s;
+    padding-bottom:8px;
+    z-index:110;
+    pointer-events: none;
+}
+.header-icon:hover .tooltip{
+    opacity:1;
+}
+.bell-ring:hover .tooltip{
+    opacity:1;
+}
